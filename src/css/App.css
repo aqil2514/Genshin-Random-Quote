@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+#quote-box {
+  display: block;
+  margin: 2% auto;
+  width: 50%;
+  padding: 1rem 2rem;
+  background-color: rgba(63, 58, 58, 0.8);
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+#author {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+#text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+#new-quote {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+#quote-img {
+  width: 100%;
+  max-width: 400px;
+  max-height: 240px;
+  display: block;
+  border-radius: 10px;
+  margin: 0.2rem auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#button-twitter {
+  display: flex;
+  justify-content: space-between;
+}
+
+#tweet-quote {
+  display: inline-block;
+  margin-top: auto;
+  color: white;
+}
+#tweet-quote svg {
+  fill: white;
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@mixin font($-tebal) {
+  font-family: "Poppins", sans-serif;
+  font-weight: $-tebal;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  @include font(900);
+}
+
+p {
+  @include font(400);
+}
+
+#quote-box {
+  display: block;
+  margin: 2% auto;
+  width: 50%;
+  padding: 1rem 2rem;
+  background-color: rgba(63, 58, 58, 0.8);
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+#author {
+  @include font(900);
+  margin-bottom: 2rem;
+}
+
+#text {
+  @include font(400);
+}
+
+#new-quote {
+  @include font(900);
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+#quote-img {
+  width: 100%;
+  max-width: 400px;
+  max-height: 240px;
+  display: block;
+  border-radius: 10px;
+  margin: 0.2rem auto;
+  object-fit: cover;
+}
+
+#button-twitter {
+  display: flex;
+  justify-content: space-between;
+}
+
+#tweet-quote {
+  display: inline-block;
+  margin-top: auto;
+  color: white;
+
+  svg {
+    fill: white;
+  }
+}

@@ -30,8 +30,8 @@ export default function Quotes() {
   }
 
   return (
-    <section ref={img} className="w-full h-full p-5 bg-fixed bg-center bg-cover min-h-screen transition-all duration-1000 bg-black">
-      <div className="w-1/2 h-1/2 mx-auto bg-gradient-to-t from-white px-4 py-5">
+    <section ref={img} className="w-full h-full py-5 px-2 bg-fixed bg-center bg-cover min-h-screen transition-all duration-1000 bg-black">
+      <div className="w-full h-full md:w-1/2 md:h-1/2 text-center mx-auto bg-gradient-to-t from-white px-4 py-5">
         <figure>
           <img src={dataQuote.img} className="block mx-auto w-96 object-cover" alt="" />
           <figcaption className="text-center">{dataQuote.author}</figcaption>
@@ -41,11 +41,11 @@ export default function Quotes() {
             {dataQuote.quote} <span>~{dataQuote.author}</span>
           </p>
         </article>
-        <div className="flex mt-3">
-          <button className="text-white mx-auto bg-emerald-800 font-bold px-4 py-2 hover:bg-cyan-600 hover:text-white transition-all duration-500 rounded-2xl" onClick={copyHandler}>
+        <div className="flex md:flex-row flex-col mt-3">
+          <button className="text-white mx-auto my-2 bg-emerald-800 font-bold px-4 py-2 hover:bg-cyan-600 hover:text-white transition-all duration-500 rounded-2xl" onClick={copyHandler}>
             Copy Quotes
           </button>
-          <button className="text-white mx-auto bg-emerald-800 font-bold px-4 py-2 hover:bg-cyan-600 hover:text-white transition-all duration-500 rounded-2xl" onClick={handlerGenerate}>
+          <button className="text-white mx-auto my-2 bg-emerald-800 font-bold px-4 py-2 hover:bg-cyan-600 hover:text-white transition-all duration-500 rounded-2xl" onClick={handlerGenerate}>
             Generate
           </button>
         </div>

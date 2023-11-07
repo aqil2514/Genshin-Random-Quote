@@ -31,7 +31,7 @@ export const Quotes = [
   },
   {
     charName: "Yanfei",
-    quotes: ["Jangan berusaha untuk meniru masa lalu, karena tidak ada hukum yang cukup untuk sepanjang waktu"],
+    quotes: ["Jangan berusaha untuk meniru masa lalu, karena tidak ada hukum yang cukup untuk sepanjang waktu."],
     img: ["https://i.imgur.com/OuAf1mv.jpg"],
   },
   {

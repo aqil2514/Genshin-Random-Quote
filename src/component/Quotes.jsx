@@ -38,7 +38,7 @@ export default function Quotes() {
         </figure>
         <article ref={copy} className="mt-2">
           <p>
-            {dataQuote.quote}. <span>~{dataQuote.author}</span>
+            {dataQuote.quote} <span>~{dataQuote.author}</span>
           </p>
         </article>
         <div className="flex mt-3">
